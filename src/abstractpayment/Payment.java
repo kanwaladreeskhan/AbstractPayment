@@ -1,6 +1,4 @@
- 
 package abstractpayment;
- 
  public abstract class Payment {
     protected abstract void validate();
     protected abstract void processPayment();

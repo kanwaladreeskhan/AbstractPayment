@@ -1,7 +1,5 @@
- 
-package abstractpayment;
- 
-public class PayPalPayment extends Payment{
+ package abstractpayment;
+ public class PayPalPayment extends Payment{
        @Override
     protected void validate(){
          System.out.println("Validating PayPal details....");

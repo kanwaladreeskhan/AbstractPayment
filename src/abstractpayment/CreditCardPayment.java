@@ -1,6 +1,4 @@
- 
 package abstractpayment;
- 
 public class CreditCardPayment extends Payment{
     @Override
     protected void validate(){
